@@ -1,4 +1,5 @@
-import java.util.Locale;
+package revisao;
+
 import java.util.Scanner;
 
 public class Condicional {
