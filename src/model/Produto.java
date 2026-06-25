@@ -7,7 +7,11 @@ public class Produto {
     private int quantidadeEstoque;
     private String tamanho;
 
-    //Construtor
+    //Construtor vazio
+    public Produto(){}
+
+
+    //Construtor com parametros
     public Produto(String nome,double preco,int quantidadeEstoque,String tamanho){
         this.nome = nome;
         this.preco = preco;
@@ -15,7 +19,9 @@ public class Produto {
         this.tamanho = tamanho;
     }
 
-    //Metodos
+
+
+    //Metodos-interação
     public void mostrarEstoque(){
         System.out.println("Nome: "+this.nome);
         System.out.println("Preço: "+this.preco);
